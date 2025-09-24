@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,800;1,800&family=Rubik+Mono+One&display=swap');
+body {
+  background-color: black
+}
+
+.start {
+  animation: 3s show ease;
+  font-family: "Karla", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 800;
+font-size: 60px;
+}
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.head {
+text-decoration: underline;
+}
+.two {
+animation: 2s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+font-family: "Karla", sans-serif;
+color: white;
+text-align: center;
+padding-top: 70px;
+padding-left: 30px;
+font-weight: 800;
+font-size: 32px;
+}
+.links1 {
+animation: 3s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+color: white;
+font-family: "Karla";
+max-width: min-content;
+font-size: 25px;
+margin-left: 40px;
+margin-top: 50px;
+display: block;
+}
+.links2 {
+animation: 4s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+font-family: "Karla";
+max-width: fit-content;
+font-size: 25px;
+margin-left: 40px;
+margin-top: 50px;
+display: block;
+}
+.links3 {
+animation: 5s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+color: white;
+font-family: "Karla";
+max-width: fit-content;
+margin-left: 40px;
+margin-top: 50px;
+font-size: 25px;
+display: block
+}
+.links4 {
+animation: 6s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+color: white;
+font-family: "Karla";
+max-width: fit-content;
+margin-left: 280px;
+margin-top: 50px;
+font-size: 25px;
+display: block
+}
+.links5 {
+animation: 7s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+color: white;
+font-family: "Karla";
+max-width: fit-content;
+margin-left: 280px;
+margin-top: 50px;
+font-size: 25px;
+display: block
+}
+.links6 {
+animation: 8s show ease;
+animation-fill-mode: forwards;
+opacity: 0;
+animation-delay: 1s;
+color: white;
+font-family: "Karla";
+max-width: fit-content;
+margin-left: 280px;
+margin-top: 50px;
+font-size: 25px;
+display: block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+	position: relative;
+	color: #ffffff; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none;
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: width 0.3s ease-out; 
+}
+a:hover:after,
+a:focus:after {
+	width: 100%;
+}
